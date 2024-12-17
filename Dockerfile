@@ -13,6 +13,7 @@ WORKDIR /app
 
 ADD test-helloworld .
 
+COPY settings.xml /root/.m2/settings.xml
 
 # with mvnw
 # RUN chmod +x mvnw && \
